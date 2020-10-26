@@ -12,6 +12,11 @@ public class Moon extends OrbitingSpaceObject
         this.p=p;
     }
 
+    public void updatePosition()
+    {
+        angleFromPlanet = angleFromPlanet + speed;
+    }
+
     public String returnColour()
     {
         return colour;
@@ -35,5 +40,15 @@ public class Moon extends OrbitingSpaceObject
     public double returnAngleFromPlanet()
     {
         return angleFromPlanet;
+    }
+
+    public double returnPlanetDistance()
+    {
+        return p.returnDistanceFromSun();
+    }
+
+    public double returnPlanetAngle()
+    {
+        return p.returnAngleFromSun();
     }
 }
