@@ -4,12 +4,11 @@ public class Planet extends OrbitingSpaceObject
     private double angleFromSun;
     private Sun sun;
 
-    public Planet(String colour, double diameter, double speed, double distanceFromSun, double angleFromSun, Sun sun)
+    public Planet(String colour, double diameter, double speed, double distanceFromSun, double angleFromSun)
     {
         super(colour, diameter, speed);
         this.distanceFromSun=distanceFromSun;
         this.angleFromSun=angleFromSun;
-        this.sun=sun;
     }
 
     public void updatePosition()
@@ -42,13 +41,4 @@ public class Planet extends OrbitingSpaceObject
         return angleFromSun;
     }
 
-    public double returnSunX()
-    {
-        return sun.returnXPosition();
-    }
-
-    public double returnSunY()
-    {
-        return sun.returnYPosition();
-    }
 }
