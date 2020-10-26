@@ -1,8 +1,12 @@
+/**
+ * This class is the main method for running the model solar system
+ * @author Tom hunt
+ */
 public class Driver
 {
-    
     public static void main(String[] args)
     {
+
         SolarSystem ss = new SolarSystem(1000,1000);
 
         Sun sun = new Sun("YELLOW", 50, 0, 0);
@@ -53,6 +57,7 @@ public class Driver
         {
             ss.drawSolarObject(sun.returnXPosition(), sun.returnYPosition(), sun.returnDiameter(), sun.returnColour());
             
+            //draws the planets and moons into the SolarSystem window
             for(int i=0; i<8; i++)
             {
                 ss.drawSolarObject(planets[i].returnDistanceFromSun(),planets[i].returnAngleFromSun(),planets[i].returnDiameter(),planets[i].returnColour());
@@ -76,10 +81,10 @@ public class Driver
                 }
             }
             
-            
-
+            //updates the window of newly drawn objects
             ss.finishedDrawing();
 
+            //Updates the position of each planet and its moons, using its respective use of updatePosition()
             for(int i=0; i<8; i++)
             {
                 planets[i].updatePosition(); 
