@@ -18,35 +18,35 @@ public class Driver
         planets[6] = new Planet("#8594A3", 14, 1, 325, 180);           //Uranus
         planets[7] = new Planet("#1C70C8", 14, 0.5, 370, 180);         //Neptune
 
-        Moon earthMoon = new Moon("WHITE", 3, 6, 15, 180, planets[2]);
+        Moon earthMoon = new Moon("WHITE", 3, 3, 10, 180, planets[2]);
 
         Moon[] marsMoons = new Moon[2];
-        marsMoons[0] = new Moon("WHITE", 3, 6, 15, 180, planets[3]);
-        marsMoons[1] = new Moon("WHITE", 3, 6, 15, 0, planets[3]);
+        marsMoons[0] = new Moon("WHITE", 3, 2, 10, 180, planets[3]);
+        marsMoons[1] = new Moon("WHITE", 3, 4, 15, 0, planets[3]);
  
         Moon[] jupiterMoons = new Moon[4];
-        jupiterMoons[0] = new Moon("WHITE", 3, 6, 30, 180, planets[4]);
-        jupiterMoons[1] = new Moon("WHITE", 3, 6, 30, 90, planets[4]);
-        jupiterMoons[2] = new Moon("WHITE", 3, 6, 30, 270, planets[4]);
-        jupiterMoons[3] = new Moon("WHITE", 3, 6, 30, 0, planets[4]);
+        jupiterMoons[0] = new Moon("WHITE", 3, 2, 25, 180, planets[4]);
+        jupiterMoons[1] = new Moon("WHITE", 3, 3, 35, 90, planets[4]);
+        jupiterMoons[2] = new Moon("WHITE", 3, 4, 30, 270, planets[4]);
+        jupiterMoons[3] = new Moon("WHITE", 3, 5, 20, 0, planets[4]);
 
         Moon[] saturnMoons = new Moon[4];
-        saturnMoons[0] = new Moon("WHITE", 3, 6, 30, 180, planets[5]);
-        saturnMoons[1] = new Moon("WHITE", 3, 6, 30, 90, planets[5]);
-        saturnMoons[2] = new Moon("WHITE", 3, 6, 30, 270, planets[5]);
-        saturnMoons[3] = new Moon("WHITE", 3, 6, 30, 0, planets[5]);
+        saturnMoons[0] = new Moon("WHITE", 3, 2, 20, 180, planets[5]);
+        saturnMoons[1] = new Moon("WHITE", 3, 3, 30, 90, planets[5]);
+        saturnMoons[2] = new Moon("WHITE", 3, 4, 25, 270, planets[5]);
+        saturnMoons[3] = new Moon("WHITE", 3, 5, 40, 0, planets[5]);
 
         Moon[] uranusMoons = new Moon[4];
-        uranusMoons[0] = new Moon("WHITE", 3, 6, 20, 180, planets[6]);
-        uranusMoons[1] = new Moon("WHITE", 3, 6, 20, 90, planets[6]);
-        uranusMoons[2] = new Moon("WHITE", 3, 6, 20, 270, planets[6]);
-        uranusMoons[3] = new Moon("WHITE", 3, 6, 20, 0, planets[6]);
+        uranusMoons[0] = new Moon("WHITE", 3, 2, 30, 180, planets[6]);
+        uranusMoons[1] = new Moon("WHITE", 3, 3, 25, 90, planets[6]);
+        uranusMoons[2] = new Moon("WHITE", 3, 4, 20, 270, planets[6]);
+        uranusMoons[3] = new Moon("WHITE", 3, 5, 10, 0, planets[6]);
 
         Moon[] neptuneMoons = new Moon[4];
-        neptuneMoons[0] = new Moon("WHITE", 3, 6, 20, 180, planets[7]);
-        neptuneMoons[1] = new Moon("WHITE", 3, 6, 20, 90, planets[7]);
-        neptuneMoons[2] = new Moon("WHITE", 3, 6, 20, 270, planets[7]);
-        neptuneMoons[3] = new Moon("WHITE", 3, 6, 20, 0, planets[7]);
+        neptuneMoons[0] = new Moon("WHITE", 3, 2, 15, 180, planets[7]);
+        neptuneMoons[1] = new Moon("WHITE", 3, 3, 25, 90, planets[7]);
+        neptuneMoons[2] = new Moon("WHITE", 3, 4, 20, 270, planets[7]);
+        neptuneMoons[3] = new Moon("WHITE", 3, 5, 30, 0, planets[7]);
 
 
         while(true)
