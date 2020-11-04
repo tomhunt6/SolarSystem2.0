@@ -13,14 +13,14 @@ public class Driver
 
         Planet[] planets = new Planet[8];
 
-        planets[0] = new Planet("#DBDBDB", 6, 4, 55, 180);             //Mercury
-        planets[1] = new Planet("#DBDBDB", 8, 3.5, 70, 180);           //Venus
-        planets[2] = new Planet("#1A85FF", 10, 3, 100, 180);           //Earth
-        planets[3] = new Planet("#C1440E", 7, 2.5, 145, 180);          //Mars
-        planets[4] = new Planet("#FFCB78", 30, 2, 200, 180);           //Jupiter
-        planets[5] = new Planet("#EDA353", 28, 1.5, 280, 180);         //Saturn
-        planets[6] = new Planet("#8594A3", 14, 1, 325, 180);           //Uranus
-        planets[7] = new Planet("#1C70C8", 14, 0.5, 370, 180);         //Neptune
+        planets[0] = new Planet("#DBDBDB", 6, 4, 55, 180);                                  //Mercury
+        planets[1] = new Planet("#DBDBDB", 8, 3.5, 70, 180);                                //Venus
+        planets[2] = new Planet("#1A85FF", 10, 3, 100, 180);                                //Earth
+        planets[3] = new Planet("#C1440E", 7, 2.5, 145, 180);                               //Mars
+        planets[4] = new Planet("#FFCB78", 30, 2, 200, 180);                                //Jupiter
+        planets[5] = new Planet("#EDA353", 28, 1.5, 280, 180);                              //Saturn
+        planets[6] = new Planet("#8594A3", 14, 1, 325, 180);                                //Uranus
+        planets[7] = new Planet("#1C70C8", 14, 0.5, 370, 180);                              //Neptune
 
         Moon earthMoon = new Moon("WHITE", 3, 3, 10, 180, planets[2]);
 
